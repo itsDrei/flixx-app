@@ -218,9 +218,50 @@ section h2 {
 /* Movie Details */
 .details-top {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 50px 0 30px;
+}
+.details-toptop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  margin: 50px 0 30px;
+}
+.tv-det{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+}
+.card-img-top{
+  width: 100%;
+  height: auto;
+  margin-top: 2em;
+}
+@media (max-width: 810px){
+  .details-toptop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+
+  .image-toptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .movie-title{
+    margin: 3.5em 0 3em 0;
+  }
 }
 
 .details-top img {
@@ -239,6 +280,8 @@ section h2 {
 }
 
 .details-bottom {
+  width: 100%;
+  margin-top: 5em;
 }
 
 .details-bottom li {
