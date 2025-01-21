@@ -108,7 +108,7 @@ const displayMovieDetails = async () => {
           />`
                }
           </div>
-          <div>
+          <div class="info">
             <h2 class='movie-title'>${movie.title}</h2>
             <p>
               <i class="fas fa-star text-primary"></i>

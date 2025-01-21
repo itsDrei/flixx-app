@@ -243,24 +243,46 @@ section h2 {
 }
 @media (max-width: 810px){
   .details-toptop {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 0;
   }
-
+.info{
+  max-width: 90%;
+  margin: auto;
+}
   .image-toptop{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+
+   max-width: 90%;
+
+    margin: auto;
     padding: 0;
   }
   .movie-title{
     margin: 3.5em 0 3em 0;
+  }
+  section.now-playing {
+    padding: 20px;
+    background: url(../images/showcase-bg.jpg) no-repeat center center/cover;
+  }
+  section.search{
+    padding: 10px;
+  }
+  section.container{
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
   }
 }
 
