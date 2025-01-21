@@ -494,6 +494,7 @@ function init() {
       search();
       break;
     case "/shows.html":
+    case "/shows":
       displayPopularTvShow();
       break;
     case "/tv-details.html":
